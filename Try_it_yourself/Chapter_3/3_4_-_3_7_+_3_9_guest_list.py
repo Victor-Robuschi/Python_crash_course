@@ -101,3 +101,9 @@ del guest_list[0]
 del guest_list[0]
 
 print(guest_list)
+
+""" 3-9. Dinner Guests: Working with one of the programs from Exercises 3-4
+through 3-7 (page 46), use len() to print a message indicating the number
+of people you are inviting to dinner. """
+
+print(len(guest_list))
