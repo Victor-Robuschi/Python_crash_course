@@ -44,3 +44,16 @@ print(mountains)
 mountains = ['mount everest', 'k2', 'kangchenjunga', 'makalu', 'lhotse', 'cho oyu', 'dhaulagiri', 'manaslu', 'nanga parbat', 'annapurna', 'k5']
 print(mountains)
 
+print(sorted(mountains))
+print(sorted(mountains, reverse=True))
+
+mountains.sort()
+print(mountains)
+mountains.sort(reverse=True)
+print(mountains)
+
+mountains = ['mount everest', 'k2', 'kangchenjunga', 'makalu', 'lhotse', 'cho oyu', 'dhaulagiri', 'manaslu', 'nanga parbat', 'annapurna', 'k5']
+mountains.reverse()
+print(mountains)
+
+mountains = ['mount everest', 'k2', 'kangchenjunga', 'makalu', 'lhotse', 'cho oyu', 'dhaulagiri', 'manaslu', 'nanga parbat', 'annapurna', 'k5']
